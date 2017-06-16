@@ -1,0 +1,10 @@
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+query("* id:'txtLado1'")
+enter_text "* id:'txtLado1'", "3"
+touch("* id:'btnCalcular'")
+element_exists("* text:'Preencha todos os campos'")
+calabash-android run triangulo.apk
+exit
