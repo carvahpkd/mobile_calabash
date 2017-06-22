@@ -1,6 +1,6 @@
 # Criando Features e Steps e executando
 
-Bem, dado que estamos com o ambiente montado e pronto para desenvolvimento vamos precisar agora definir o local para iniciarmos. Geralmente eu coloco meus projetos em um local chamado workspace, mas fica a cargo de cada um.
+Bem, dado que estamos com o ambiente montado e pronto para desenvolvimento vamos precisar agora definir o local para iniciarmos. 
 
 Uma vez que temos nosso local para desenvolvimento, vamos precisar falar para o Calabash que vamos iniciar um projeto bem ali. E para isso, vamos dar o seguinte comando:
 
@@ -41,7 +41,3 @@ Mas a forma de trabalho cada um tem a sua, portanto, fique a vontade para escolh
 Eu sempre gosto de trabalhar com uma pasta specifications para colocar dentro dela todas as minhas features bem organizadas e também o nome faz todo sentido.
 
 O arquivo "my_first.feature" pode ser removido OK, eu vou ensinar como criar um arquivo legal para trabalhar.
-
-Caso queira dar uma olhada, no próprio repositório a estrutura já está montada.
-
-Bora para o terceiro arquivo da série: https://goo.gl/7EgCjz
