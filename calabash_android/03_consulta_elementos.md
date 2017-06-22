@@ -1,6 +1,6 @@
 # Lidando com os elementos.
 
-Após a configuração do ambiente, já podemos trabalhar em paz =), mas antes, no Android Studio, em SDK Manager instale os pacotes que você deseja trabalhar em Platafform Tools e Tools. Vou colocar os que eu estou utilizando ok?:
+Após a configuração do ambiente, já podemos trabalhar em paz, mas antes, no Android Studio, em SDK Manager instale os pacotes que você deseja trabalhar em Platafform Tools e Tools. Vou colocar os que eu estou utilizando ok?:
 
 ```ruby
 SDK Platafforms: Androi 6.0 - Marshmallow;
@@ -33,7 +33,7 @@ calabash-android resign busca_cep.apk
 Esse comando serve para você assinar a versão e com isso criar o servidor de testes para conseguir rodar, buscar elementos, etc.
 ```
 
-Depois do app estar assinado, vamos entrar em modo console para conseguirmos ver os elementos que esse aplicativo possui, e interagir com eles também. Nessa primeira versão do Calabash For All eu vou colocar o básico para que tu consiga sair do estágio negativo e chegar ao estágio zero. Será feito um segundo Calabash For All com boas práticas, tópicos avançados. Misturar tudo aqui vai confundir geral. Execute o seguinte comando:
+Depois do app estar assinado, vamos entrar em modo console para conseguirmos ver os elementos que esse aplicativo possui, e interagir com eles também.Execute o seguinte comando:
 
 ```ruby
 calabash-android console busca_cep.apk
@@ -125,7 +125,7 @@ Olha que coisa linda esse resultado. Temos exatamente dois botões no App (BUSCA
 touch ("android.support.v7.widget.AppCompatButton")
 ```
 
-Viram .. ele clicou no botão \o/ .... Até escorreu uma lágrima.
+Viram .. ele clicou no botão .
 
 Agora vamos ver como inserir texto no campo de CEP:
 
@@ -210,6 +210,6 @@ E por fim, vamos dar um touch nele =):
 irb(main):053:0> touch ("android.support.v7.widget.AppCompatButton")
 nil
 ```
-Show de bola =) agora sabemos como interagir com nosso aplicativo através do console do calabash.
+Show de bola , agora sabemos como interagir com nosso aplicativo através do console do calabash.
 
-Próximo passo será criando nosso arquivo feature e realizando os testes via cucumber =).
+Próximo passo será criando nosso arquivo feature e realizando os testes via cucumber .
