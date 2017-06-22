@@ -1,6 +1,6 @@
-# De boca no Calabash (Vamo Porra!)
+# De boca no Calabash 
 
-Parabéns cavaleiro, agora estamos em nossa última batalha, que será travada com nosso bom e velho cucumber e nossas especificações por exemplo. Mais precisamente usaremos BDD com Cucumber para nossos testes de aceitação e vamos usar nosso framework para automação (calabash android) como arqueiros e bem .. vamos ao ponto rsrsr (empolgação com guerras).
+Parabéns , agora estamos em nossa última batalha, que será travada com nosso bom e velho cucumber e nossas especificações por exemplo. Mais precisamente usaremos BDD com Cucumber para nossos testes de aceitação e vamos usar nosso framework para automação (calabash android) vamos ao ponto .
 
 Para maiores detalhes sobre cucumber, acessem https://cucumber.io/.
 
@@ -236,10 +236,4 @@ Ou seja, no Before ele fala: "Olha ... antes de cada teste, da um start no servi
 Com isso, eu consigo usar os comandos de busca de elementos, interagir com eles e se der pau, consigo um screenshot e mostrar pro Dev onde está o problema.
 ```
 
-Bem pessoal, espero que tenham gostado dessa introdução do calabash android. Vão haver mais partes, o próximo vou falar de conceitos mais avançados, como usar After e Before nos meus testes, assim como outras gems para dar um UP =).
-
-A apk ta disponível. Façam fork e brinquem a vontade.
-
-Qualquer dúvida ou sugestão ou crítica (essa principalmente) me mandem email: thiagomarquessp@gmail.com
-
-\o/
+Bem pessoal, espero que tenham gostado dessa introdução do calabash android. 
