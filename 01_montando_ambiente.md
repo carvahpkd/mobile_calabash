@@ -1,4 +1,4 @@
-# Cavala Calava Calaba Calabash (Montando o ambiente de trabalho).
+# Calabash (Montando o ambiente de trabalho).
 
 Bem, antes de mais nada estou trabalhando em um MAC, mas isso não é um problema para quem ta trabalhando com Windows ou Linux. O princípio vai ser o mesmo, mas, caso você seja um QA da velha escola, que tal aprender um outro Sistema Operacional??? Então pra deixar claro, usando o Windows vc vai ter que usar o dobro o stackoverflow, principalmente no quesito montagem de ambiente. Montar ambiente para testes usando Ruby por exemplo no Mac é um porre danado, mas depois de muito trabalho, você consegue.
 
