@@ -1,6 +1,6 @@
 # calabash_android
 
-Bem-vindo ao Calabash para Android
+Blog para configuração do ambiente: https://medium.com/@thi_carva/calabash-android-no-windows-14f8863ab04d
 
 A Calabash é uma tecnologia de testes automatizada para aplicações nativas e híbridas para Android e iOS.
 
@@ -19,7 +19,7 @@ A documentação é dividida nas seguintes seções:
 Instalação
 Ruby API
 Wiki (que inclui informações sobre a construção de strings uiquery)
-O Calabash Android requer ruby> = 2.0 (a versão estável mais recente é a preferida).
+O Calabash Android requer ruby> = 2.3.3 
 
 Ruby em MacOS
 
@@ -28,7 +28,7 @@ No MacOS, recomendamos usar um Ruby gerenciado como rbenv ou rvm). Se você est�
 # Instala o Sandbox Calabash
 $ Curl -sSL https://raw.githubusercontent.com/calabash/install/master/install-osx.sh | Bash
 
-Por favor, não instale gems com sudo
+Evite instalar as gems com sudo
 
 Para obter mais informações sobre o ruby no MacOS, consulte estas páginas Wiki:
 Ruby em MacOS
@@ -65,13 +65,12 @@ Escrevendo um teste
 
 Os recursos do Cucumber vão na biblioteca de recursos e devem ter a extensão ".feature".
 
-Você pode começar olhando os recursos / my_first.feature. Você pode estender esse recurso ou fazer o seu próprio usando algumas das etapas predefinidas que vem com Calabash.
-
 Executando o teste
 
 Para executar o teste:
 
 Calabash-android executar <apk>
+
 O Calabash-android irá instalar uma instrumentação juntamente com o seu aplicativo ao executar o aplicativo. Chamamos essa instrumentação de "servidor de teste". O "servidor de teste" tem permissão especial que lhe permite interagir muito de perto com o seu aplicativo durante o teste. Toda vez que você testar um novo binário ou usar uma versão atualizada do calabash, um novo servidor de teste será construído. O servidor de teste é uma intrumentação que será executada juntamente com o aplicativo no dispositivo para executar o teste.
 
 Local de captura de tela
