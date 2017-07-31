@@ -53,6 +53,6 @@ export ANDROID_ADB=/Users/usuario/Library/Android/sdk/platform-tools/adb
 
 Qualquer outra variável que estiver lá NÃO mexa Ok.
 
-Importante saber que definir as variáveis de ambiente é o principal da configuração do ambiente. Sem isso nada funciona. Ok =)
+Importante saber que definir as variáveis de ambiente é o principal da configuração do ambiente. Sem isso nada funciona.
 
-Reinicie a máquina e bora pro documento III. =)
+Reinicie a máquina.
