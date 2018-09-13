@@ -1,0 +1,22 @@
+calabash-android setup
+calabash-android resign nome_aplicativo.apk 
+calabash-android build  nome_aplicativo.apk 
+
+calabash-android console nome_aplicativo.apk 
+
+reinstall_apps
+start_test_server_in_background
+
+query("*")
+query("* id:'txtLado1'", setText:"3")
+
+calabash-android run nome_aplicativo.apk 
+
+
+LIMPAR IRB
+system 'clear'
+
+
+touch("* id:'btnCalcular'")
+element_exists("* text:’texto'")
+enter_text "* id:'txtLado1'", "3"

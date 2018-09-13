@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'calabash-cucumber',        '0.20.3'
+gem 'calabash-android',         '0.8.4'
+gem 'pry',                      '0.10.4'

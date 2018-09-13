@@ -1,0 +1,1 @@
+run: --tag @funcionalidade_basica --format html --out report.html --format pretty

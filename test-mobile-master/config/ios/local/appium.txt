@@ -1,0 +1,13 @@
+[caps]
+platformName = "iOS"
+automationName = "XCUITest"
+deviceName = "iPhone 6"
+platformVersion = "10.3.2"
+app = "/Users/luiz/develop/interface_test_quiz/app/Quiz.zip"
+newCommandTimeout = 3600
+sendKeyStrategy = "setValue"
+autoWebview = true
+nativeInstrumentsLib = true
+[appium_lib]
+wait = 20
+debug = true

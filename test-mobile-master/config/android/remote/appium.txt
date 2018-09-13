@@ -1,0 +1,17 @@
+[caps]
+sessionName = "Automation Test"
+sessionDescription = "#1"
+deviceOrientation = "portrait"
+app = "kobiton-store:v282"
+captureScreenshots = true
+deviceGroup = "KOBITON"
+deviceName = "Galaxy A3(2016)"
+platformName = "Android"
+platformVersion = "6.0.1"
+appPackage = ""
+appActivity = "b"
+appWaitActivity = ""
+[appium_lib]
+server_url = ""
+wait = 20
+debug = "true"

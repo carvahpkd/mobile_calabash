@@ -1,0 +1,46 @@
+perform_action('drag', 75, 25, 50, 50, 5)
+touch("* id:'NoResourceEntry-89'")
+quit
+reinstall_apps
+start_test_server_in_background
+element_exists("* text:'CNPJ)'")
+element_exists("* text:'CNPJ)'")
+query("*")
+element_exists("* text:'CNPJ'")
+enter_text "* id:'NoResourceEntry-20'", ""
+enter_text "* id:'NoResourceEntry-24'", ""
+touch("* id:'NoResourceEntry-37'")
+touch("* id:'NoResourceEntry-37'")
+query("*")
+touch("* text:'Entrar'")
+touch("* text:'Entrar'")
+reinstall_apps
+start_test_server_in_background
+query("*")
+clear_text("android.widget.EditText id:'NoResourceEntry-22'")
+exit
+
+reinstall_apps
+start_test_server_in_background
+query("*")
+flash("* text:'CNPJ'")
+flash("* text:'CNPJ'")
+flash("* id:'NoResourceEntry-18'")
+flash("* id:'NoResourceEntry-18'")
+flash("* id:'NoResourceEntry-20'")
+flash("* id:'NoResourceEntry-20'")
+flash("* id:'NoResourceEntry-20'")
+flash("* id:'NoResourceEntry-24'")
+flash("* id:'NoResourceEntry-24'")
+flash("* id:'NoResourceEntry-37'")
+flash("* text:'Entrar'")
+flash("* text:'Entrar'")
+enter_text "* id:'NoResourceEntry-24'", "21951838000130"
+clear_text("android.widget.EditText id:'NoResourceEntry-24'")
+enter_text "* id:'NoResourceEntry-20'", "21951838000130"
+enter_text "* id:'NoResourceEntry-24'", "ticket@123"
+touch("* text:'Entrar'")
+perform_action('drag', 75, 25, 50, 50, 5)
+perform_action('drag', 75, 25, 50, 50, 5)
+perform_action('drag', 75, 25, 50, 50, 5)
+perform_action('drag', 75, 25, 50, 50, 5)

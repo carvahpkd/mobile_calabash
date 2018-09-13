@@ -1,0 +1,10 @@
+[caps]
+platformName = "Android"
+deviceName = "56e76b47"
+app = "app/cadastro_carros.apk"
+appPackage = "br.com.ftec.ailton.cadastrodecarrosweb"
+appActivity = "br.com.ftec.ailton.cadastrodecarrosweb.MainActivity"
+newCommandTimeout = 3600
+[appium_lib]
+wait = 20
+debug = "true"
