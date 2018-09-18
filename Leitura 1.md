@@ -12,8 +12,11 @@ A. Java instalado:
    Mac: https://java.com/en/download/help/mac_install.xml;
    Win: https://java.com/en/download/;
    Linux: https://www.java.com/pt_BR/download/help/linux_x64_install.xml;
+   
 B. Java Development Kit (JDK): http://www.oracle.com/technetwork/pt/java/javase/downloads/index.html;
+
 C. Android Studio: https://developer.android.com/studio/install.html;
+
 D. Assim que instalar o Android, instalar os pacotes de SDK Platform dele;
 
 Vamos precisar instalar o ruby e a gem do calabash-android:
