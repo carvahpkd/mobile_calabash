@@ -47,7 +47,7 @@ Depois de todo esse trampo (instlar Android Studio, SDKs, Java e JDK), agora tem
 no nosso arquivo e bash_profile (MAC e Linux) ou nas variáveis de ambiente do Windows:
 
 export ANDROID_HOME=/Users/usuario/Library/Android/sdk
-export ANDROID_PLATAFORM_TOOLS=/Users/usuario/Library/Android/sdk/platform-tools
+export ANDROID_PLATFORM_TOOLS=/Users/usuario/Library/Android/sdk/platform-tools
 export ANDROID_TOOLS=/Users/usuario/Library/Android/sdk/tools
 export ANDROID_ADB=/Users/usuario/Library/Android/sdk/platform-tools/adb
 
