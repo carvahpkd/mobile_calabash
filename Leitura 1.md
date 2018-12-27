@@ -53,6 +53,21 @@ export ANDROID_ADB=/Users/usuario/Library/Android/sdk/platform-tools/adb
 
 Qualquer outra variável que estiver lá NÃO mexa Ok.
 
+
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export ANDROID_HOME=/Users/thiagocarvalho/Library/Android/sdk
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$JAVA_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+
+
 Importante saber que definir as variáveis de ambiente é o principal da configuração do ambiente. Sem isso nada funciona, OK.
 
 Reinicie a máquina. 
