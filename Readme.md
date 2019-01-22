@@ -6,7 +6,7 @@ A Calabash é uma tecnologia de testes automatizada para aplicações nativas e 
 
 Calabash é um projeto livre de código aberto, desenvolvido e mantido pela Xamarin.
 
-Enquanto a Calabash é totalmente gratuita, a Xamarin fornece uma série de serviços comerciais centrados em torno da Calabash e garantia de qualidade para celulares, ou seja, Xamarin Test Cloud, que consiste em ambientes de teste de execução hospedados que permitem executar testes Calabash em um grande número de dispositivos Android e iOS.
+Calabash é totalmente gratuita, a Xamarin deixou de dar suporte ao mesmo, porém fornece uma série de serviços comerciais centrados em torno da Calabash e garantia de qualidade para celulares, ou seja, Xamarin Test Cloud, que consiste em ambientes de teste de execução hospedados que permitem executar testes Calabash em um grande número de dispositivos Android e iOS.
 
 Consulte xamarin.com/test-cloud.
 
@@ -23,7 +23,7 @@ O Calabash Android requer ruby> = 2.0 (a versão estável mais recente é a pref
 
 Ruby em MacOS
 
-No MacOS, recomendamos usar um Ruby gerenciado como rbenv ou rvm). Se você está apenas começando ou não quiser se comprometer com um Ruby gerenciado, você deve instalar e usar o Calabash Sandbox.
+No MacOS, recomendamos usar um Ruby gerenciado como rbenv ou rvm. Se você está apenas começando ou não quiser se comprometer com um Ruby gerenciado, você deve instalar e usar o Calabash Sandbox.
 
 # Instala o Sandbox Calabash
 $ Curl -sSL https://raw.githubusercontent.com/calabash/install/master/install-osx.sh | Bash
@@ -71,7 +71,7 @@ Executando o teste
 
 Para executar o teste:
 
-Calabash-android executar <apk>
+Calabash-android run <apk>
 O Calabash-android irá instalar uma instrumentação juntamente com o seu aplicativo ao executar o aplicativo. Chamamos essa instrumentação de "servidor de teste". O "servidor de teste" tem permissão especial que lhe permite interagir muito de perto com o seu aplicativo durante o teste. Toda vez que você testar um novo binário ou usar uma versão atualizada do calabash, um novo servidor de teste será construído. O servidor de teste é uma intrumentação que será executada juntamente com o aplicativo no dispositivo para executar o teste.
 
 Local de captura de tela
@@ -98,5 +98,3 @@ Se parecer que os botões / texto não estão sendo clicados corretamente, você
 
 <Uses-sdk android: targetSdkVersion = "SDK_VERSION" />
 Onde SDK_VERSION é a versão do SDK do Android que você está usando. 
-
-Por exemplo, o Android 4.0 usa a versão 14, o Android 4.0.3 usa a versão 15 eo Android 4.1 usa a versão 16.
